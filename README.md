@@ -5,7 +5,7 @@ Para testar:
 
 ```>go run App2.go <n>```
 
-onde n é o número de aplicações simuladas distribuídas em uma rede. IP e porta destas aplicações devem estar definidas no arquivo network.txt no formato ```número_de_ip:porta```.
+onde 3<=n<=10 é o número de aplicações simuladas distribuídas em uma rede. IP e porta destas aplicações devem estar definidas no arquivo network.txt no formato ```número_de_ip:porta```.
 
 O arquivo já contém 3 nodos predefinidos que usam endereço de loopback mais portas próprias. Um teste pode ser imediatamente executado com ```>go run App2.go 3```.
 
